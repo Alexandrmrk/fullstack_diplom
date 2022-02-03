@@ -5,7 +5,7 @@ module.exports = function(app) {
         { target: 'http://localhost:5000/' }
     ));
     app.use(proxy('/auth/signin/', 
-    { target: 'http://176.119.147.35' }
+    { target: 'http://176.119.147.35/auth/signin/' }
 ));
 }
 
