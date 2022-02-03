@@ -6,7 +6,7 @@ const signin = async (user) => {
         Accept: "application/json",
         "Content-Type": "application/json",
       },
-      credentials: "include",
+      // credentials: "include",
       body: JSON.stringify(user),
     });
 
