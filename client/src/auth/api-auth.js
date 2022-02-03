@@ -1,6 +1,6 @@
 const signin = async (user) => {
   try {
-    let response = await fetch("http://176.119.147.35/auth/signin/", {
+    let response = await fetch("/auth/signin/", {
       method: "POST",
       headers: {
         Accept: "application/json",
